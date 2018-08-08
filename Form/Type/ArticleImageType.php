@@ -11,10 +11,10 @@ final class ArticleImageType extends ImageType
     /**
      * {@inheritdoc}
      */
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder->add('file', FileType::class, [
-            'label'         => 'webburza.sylius.article.label.file'
+            'label' => 'webburza.sylius.article.label.file'
         ]);
     }
 

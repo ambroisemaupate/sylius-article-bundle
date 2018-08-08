@@ -1,0 +1,40 @@
+webburza_article:
+    ui:
+        article: Article
+        articles: Articles
+        article_category: Catégorie d’article
+        article_categories: Catégories d’article
+        latest_from_category: Les derniers articles de la catégorie
+        related_articles: Articles liés
+        related_products: Produits liés
+        content: Contenu
+        manage_articles: Gestion des articles
+        manage_article_categories: Gestion des catégories d’article
+    article:
+        label:
+            id: Id
+            title: Titre
+            lead: Résumé
+            content: Contenu
+            active: Active ?
+            meta_keywords: Meta Keywords
+            meta_description: Meta Description
+            cover_image: Image de couverture
+            published_at: Publié le
+            published: Publié ?
+            featured: En avant ?
+            created_at: Créé le
+            updated_at: Mis à jour le
+            products: Produits liés
+            choose_products: Choisir un ou plusieurs produits…
+            category: Catégorie
+            choose_category: Choisir une catégorie
+            file: Fichier
+    article_category:
+        label:
+            id: Id
+            code: Code
+            title: Titre
+            published: Publié ?
+            created_at: Créé le
+            updated_at: Mis à jour le
